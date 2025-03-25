@@ -159,7 +159,6 @@
 .about__description-container {
     display: flex;
     flex-direction: column;
-    /* padding-left: 5rem; */
 }
 
 .about__header {
@@ -175,3 +174,68 @@
 
 /* PRICING */
 
+.pricing {
+    background-color: #F9FAFA;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pricing__header-container {
+    text-align: center;
+    padding: 4rem;
+}
+
+.pricing__header {
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.pricing-desctription, .pricing__plan-name {
+    font-weight: 300;
+}
+
+
+.pricing__list {
+    display: flex;
+}
+
+.pricing__item {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.pricing__plan-benefits, .pricing__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__plan-benefits {
+    margin: 2rem 0;
+}
+
+.pricing__price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.pricing__month {
+    font-size: 0.6rem;
+}
+
+.pricing__plan-benefits-item {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.pricing__button {
+    background-color: #0ABCEB;
+    color: white;
+    margin-top: auto;
+}
+
+.pricing__item:nth-child(2) {
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.1);
+}
